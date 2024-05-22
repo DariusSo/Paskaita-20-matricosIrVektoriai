@@ -7,12 +7,12 @@ public class Main {
         matrica.sukurtiMatrica();
         matrica.isvestiMatrica(matrica.elementai);
         System.out.println();
-        //matrica.transponuotiMatrica(matrica.elementai);
-//        Matrica matrica2 = new Matrica();
-//        matrica2.sukurtiMatrica();
-//        matrica2.isvestiMatrica(matrica2.elementai);
-//        System.out.println();
-//        matrica.matricuSudetis(matrica.elementai, matrica2.elementai);
+        matrica.transponuotiMatrica(matrica.elementai);
+        Matrica matrica2 = new Matrica();
+        matrica2.sukurtiMatrica();
+        matrica2.isvestiMatrica(matrica2.elementai);
+        System.out.println();
+        matrica.matricuSudetis(matrica.elementai, matrica2.elementai);
 
         Vektorius vektorius = new Vektorius();
         vektorius.sukurtiVektoriu();
